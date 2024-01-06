@@ -1,3 +1,10 @@
+## Customize the config of Tailwind Css for project 
+
+### index.css
+
+```css
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -260,4 +267,5 @@
     margin-top: 1rem;
   }
 }
- 
+
+```
