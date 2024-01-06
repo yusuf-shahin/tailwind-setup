@@ -7,6 +7,7 @@
 @layer base {
   :root {
     /* // Color // */
+    
     --primary-100: #ede9fe;
     --primary-200: #ddd6fe;
     --primary-300: #c4b5fd;
@@ -18,6 +19,7 @@
     --primary-900: #4c1d95;
 
     /* grey */
+    
     --grey-50: #f8fafc;
     --grey-100: #f1f5f9;
     --grey-200: #e2e8f0;
@@ -28,7 +30,9 @@
     --grey-700: #334155;
     --grey-800: #1e293b;
     --grey-900: #0f172a;
+    
     /* rest of the colors */
+    
     --black: #222;
     --white: #fff;
     --red-light: #f8d7da;
@@ -38,7 +42,9 @@
 
     --small-text: 0.875rem;
     --extra-small-text: 0.7em;
+    
     /* // rest of the vars // */
+    
     --backgroundColor: var(--grey-50);
     --textColor: var(--grey-900);
     --borderRadius: 0.25rem;
@@ -57,6 +63,7 @@
     --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
       0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
+
   body {
     background: var(--backgroundColor);
     font-family: 'Poppins', sans-serif;
@@ -64,6 +71,7 @@
     line-height: 1;
     color: var(--textColor);
   }
+  
   p {
     margin: 0;
   }
